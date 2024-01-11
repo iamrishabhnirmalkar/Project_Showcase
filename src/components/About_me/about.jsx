@@ -1,11 +1,20 @@
 import React from "react";
 
-function Aboutme() {
+function about() {
   return (
     <>
-      <div className="bg-black h-screen">
-        <div className="text-white px-3 ">
-          <h1 className="font-bold text-lg ">Rishabh Nirmalkar</h1>
+      <div className="bg-black  text-white min-h-screen py-2">
+        <div className=" flex justify-center ">
+          <img
+            src="https://images.pexels.com/photos/4929032/pexels-photo-4929032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""
+            className="w-2/4 h-2/4 rounded-full border border-white"
+          />
+        </div>
+        <div className="flex justify-center py-5 ">
+          <h1 className="font-semibold text-xl">Rishabh Nirmalkar</h1>
+        </div>
+        <div className="flex justify-center px-4 min-h-screen text-lg mb-16 text-justify	">
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -33,15 +42,7 @@ function Aboutme() {
             consectetur, from a Lorem Ipsum passage, and going through the cites
             of the word in classical literature, discovered the undoubtable
             source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
-            Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
-            Cicero, written in 45 BC. This book is a treatise on the theory of
-            ethics, very popular during the Renaissance. The first line of Lorem
-            Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
-            1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is
-            reproduced below for those interested. Sections 1.10.32 and 1.10.33
-            from "de Finibus Bonorum et Malorum" by Cicero are also reproduced
-            in their exact original form, accompanied by English versions from
-            the 1914 translation by H. Rackham.
+            Finibus Bonorum et Malorum"
           </p>
         </div>
       </div>
@@ -49,4 +50,4 @@ function Aboutme() {
   );
 }
 
-export default Aboutme;
+export default about;

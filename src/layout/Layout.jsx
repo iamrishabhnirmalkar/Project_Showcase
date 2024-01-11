@@ -1,19 +1,16 @@
-import DisplayPicture from "../components/display_Picture/image";
-import SocailMedia from "../components/social_Media/Sm";
-import Button from "../components/Button/Button";
-import Router from "../Router/Router";
+import React from "react";
+import Router from "../router/Router";
+import Footernavbar from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
 
 function Layout() {
   return (
     <>
-      <div className="flex flex-col  overflow-hidden">
-        <DisplayPicture />
-        <SocailMedia />
-        <Button />
-      </div>
-      <main className="flex-1 overflow-y-auto">
+      <Header />
+      <main>
         <Router />
       </main>
+      <Footernavbar />
     </>
   );
 }
