@@ -23,13 +23,13 @@ function social() {
           </div>
 
           <div className="flex justify-center items-center mb-4  border border-white p-4  text-fuchsia-900 ">
-            <a href="">
+            <a href="/">
               <FaSquareInstagram size={60} />
             </a>
           </div>
 
           <div className="flex justify-center items-center mb-4 border border-white p-4 text-red-800 ">
-            <a href="">
+            <a href="/">
               <FaYoutube size={60} />
             </a>
           </div>
