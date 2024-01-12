@@ -18,6 +18,31 @@ function Project() {
       Codelink: "",
       Websitelink: "https://celesteindia.in/",
     },
+    {
+      id: 3,
+      Img: "/Image/01.jpg",
+      Head: "Real State ",
+      Des: "To upgrade my skills, I am attempting to create a real estate project using React, focusing solely on its component-based architecture. In this project, I am not utilizing any additional React features; it is purely a component-based React project with Tailwind CSS.",
+      Codelink:
+        "https://github.com/iamrishabhnirmalkar/RealState?tab=readme-ov-file",
+      Websitelink: "https://powergroupproject.netlify.app/",
+    },
+    {
+      id: 4,
+      Img: "/Image/Movieokk.png",
+      Head: "Movie Okkk ",
+      Des: "In the movie OKK, which is a movie search website, I utilize the OMDB API to fetch movie data. In this React project, I focus on working with APIs and demonstrate how to retrieve data by searching for any movie provided by the user.",
+      Codelink: "https://github.com/iamrishabhnirmalkar/Movie-Searvhing-App",
+      Websitelink: "https://movieokk.netlify.app/",
+    },
+    {
+      id: 5,
+      Img: "/Image/Comman.png",
+      Head: "Chat App",
+      Des: "In the React project, I incorporated Firebase to handle authentication and database functionalities for my chat application. I learned how to create this project by following tutorials on YouTube and attempted to implement it independently.",
+      Codelink: "https://github.com/iamrishabhnirmalkar/Chat-App/tree/main/src",
+      Websitelink: "https://rishcodechatapp.netlify.app/",
+    },
   ];
 
   return (
