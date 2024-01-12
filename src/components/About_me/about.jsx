@@ -1,4 +1,4 @@
-import React from "react";
+import DP from "/Image/Dp.jpg";
 
 function about() {
   return (
@@ -6,9 +6,9 @@ function about() {
       <div className="bg-black  text-white min-h-screen py-2">
         <div className=" flex justify-center ">
           <img
-            src="https://images.pexels.com/photos/4929032/pexels-photo-4929032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src={DP}
             alt=""
-            className="w-2/4 h-2/4 rounded-full border border-white"
+            className="w-2/4 h-2/4 rounded-full  border-white border-4 "
           />
         </div>
         <div className="flex justify-center py-5 ">
@@ -16,33 +16,24 @@ function about() {
         </div>
         <div className="flex justify-center px-4 min-h-screen text-lg mb-16 text-justify	">
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum. Why do we use it? It is
-            a long established fact that a reader will be distracted by the
-            readable content of a page when looking at its layout. The point of
-            using Lorem Ipsum is that it has a more-or-less normal distribution
-            of letters, as opposed to using 'Content here, content here', making
-            it look like readable English. Many desktop publishing packages and
-            web page editors now use Lorem Ipsum as their default model text,
-            and a search for 'lorem ipsum' will uncover many web sites still in
-            their infancy. Various versions have evolved over the years,
-            sometimes by accident, sometimes on purpose (injected humour and the
-            like). Where does it come from? Contrary to popular belief, Lorem
-            Ipsum is not simply random text. It has roots in a piece of
-            classical Latin literature from 45 BC, making it over 2000 years
-            old. Richard McClintock, a Latin professor at Hampden-Sydney College
-            in Virginia, looked up one of the more obscure Latin words,
-            consectetur, from a Lorem Ipsum passage, and going through the cites
-            of the word in classical literature, discovered the undoubtable
-            source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
-            Finibus Bonorum et Malorum"
+            Hello everyone, my name is Rishabh Nirmalkar, and I am a web
+            developer with a bit of knowledge in UI and UX. As an engineering
+            graduate, I am passionate about technology, and as an individual, I
+            consider myself creative. I enjoy thinking creatively in various
+            fields and am a bit introverted, but that doesn't affect my work.
+            <br />
+            Speaking of my educational journey, I am currently a final-year
+            B.Tech student. Throughout my academic career, I have been an
+            average student, but my passion for technology and creativity has
+            always driven me.
+            <br />
+            In terms of experience, I initially worked at a company called
+            MRMINT as a Social Media Manager, which marked the beginning of my
+            professional journey. Subsequently, I collaborated with some
+            friends' startups, working as a freelancer to develop websites as
+            per client requirements and handle social media.
+            <br />
+            If you want to know more about me, please feel free to reach out.
           </p>
         </div>
       </div>

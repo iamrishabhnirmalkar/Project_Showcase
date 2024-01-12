@@ -1,0 +1,26 @@
+.brain-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.brain-icon.active {
+  transform: rotate(360deg);
+  color: #6b21a8;
+}
+
+.user-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.user-icon.active {
+  transform: rotate(360deg);
+  color: #1e40af;
+}
+
+.link-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.link-icon.active {
+  transform: rotate(360deg);
+  color: #9f1239;
+}

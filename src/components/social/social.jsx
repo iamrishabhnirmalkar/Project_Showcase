@@ -11,31 +11,27 @@ function social() {
       <div className="bg-black min-h-screen flex justify-center items-center">
         <div className="text-white  flex flex-col items-center ">
           <div className="flex justify-center items-center mb-4 border border-white p-4  ">
-            <a href="">
+            <a href="https://github.com/iamrishabhnirmalkar">
               <FaGithub size={60} />
             </a>
-            <h1>GitHub</h1>
           </div>
 
-          <div className="flex justify-center items-center mb-4 border border-white p-4">
-            <a href="">
+          <div className="flex justify-center items-center mb-4 border border-white p-4 text-blue-500 ">
+            <a href="https://www.linkedin.com/in/iamrishunir/">
               <FaLinkedin size={60} />
             </a>
-            <h1>LinkedIn</h1>
           </div>
 
-          <div className="flex justify-center items-center mb-4  border border-white p-4">
+          <div className="flex justify-center items-center mb-4  border border-white p-4  text-fuchsia-900 ">
             <a href="">
               <FaSquareInstagram size={60} />
             </a>
-            <h1>Instagram</h1>
           </div>
 
-          <div className="flex justify-center items-center mb-4 border border-white p-4">
+          <div className="flex justify-center items-center mb-4 border border-white p-4 text-red-800 ">
             <a href="">
               <FaYoutube size={60} />
             </a>
-            <h1>Youtube</h1>
           </div>
         </div>
       </div>
